@@ -1,0 +1,166 @@
+main {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1170px;
+  margin-bottom: 200px;
+}
+
+.link-html {
+  background: #abd6cf;
+  padding: 60px;
+  display: flex;
+  justify-content: center;
+  max-width: 460px;
+  max-height: 550px;
+  flex-wrap: wrap;
+}
+
+.link-html h2,
+.link-html p {
+  display: flex;
+  text-align: center;
+}
+
+.link-html h2 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 100px;
+  line-height: 117px;
+  color: #343434;
+  margin-bottom: 25px;
+}
+.link-html p {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 30px;
+  color: #343434;
+  margin-top: 25px;
+}
+
+/* -----TAGS----- */
+
+.tags-and-atributes {
+  display: flex;
+  max-width: 710px;
+  max-height: 300px;
+}
+
+.tags-and-atributes h2 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 59px;
+  color: #343434;
+  text-align: center;
+}
+
+.tags-and-atributes p {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+  color: #343434;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.taa-padding {
+  padding-left: 140px;
+  padding-right: 140px;
+  padding-top: 70px;
+  padding-bottom: 80px;
+}
+
+/* -----main HTML.Book----- */
+.main-html-book {
+  display: flex;
+  max-width: 710px;
+  max-height: 250px;
+}
+
+.html-book-desc {
+  text-align: center;
+  max-width: 330px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.html-book-desc h2 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 34px;
+  line-height: 40px;
+  color: #343434;
+}
+
+.html-book-desc p {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+  color: #343434;
+  margin-top: 40px;
+}
+
+.skelet {
+  max-width: 800;
+  margin-left: 102px;
+  margin-right: 102px;
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+.skelet h2 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 59px;
+  text-align: center;
+  color: #343434;
+}
+
+.skelet p {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  color: #343434;
+}
+
+.about-css p {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 59px;
+  text-align: center;
+  color: #343434;
+}
+
+.about-css {
+  background: #ddd517;
+  min-width: 370px;
+  padding-left: 120px;
+  padding-right: 120px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  
+}
+
+.test {
+    display: flex;
+}

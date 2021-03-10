@@ -1,0 +1,30 @@
+
+img {
+    display: block;
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p {
+    margin: 0;
+  }
+  
+  button {
+    cursor: pointer;
+    border: 0px;
+  }
+  
+  
+  a {
+    text-decoration: none;
+    color: currentColor;
+  }
+  ul,
+  ol {
+    list-style-type: none;
+    padding-inline-start: 0px;
+    margin: 0px;
+  }

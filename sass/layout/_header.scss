@@ -1,0 +1,70 @@
+.header-wrap {
+  display: flex;
+  align-items: baseline;
+  margin-top: 50px;
+  padding-bottom: 30px;
+  margin-left: 90px;
+  margin-right: 90px;
+}
+
+.logo-and-description {
+  display: flex;
+}
+
+.logo {
+  display: flex;
+  flex-wrap: wrap;
+  width: 160px;
+  border-right: 1px solid #343434;
+  padding-right: 24px;
+}
+
+.part-1 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 50px;
+  line-height: 59px;
+  color: #343434;
+}
+
+.part-2 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 35px;
+  color: #343434;
+  margin-left: auto;
+}
+
+.logo-description {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 23px;
+  color: #343434;
+  display: flex;
+  align-items: center;
+  margin-left: 24px;
+  width: 220px;
+}
+
+.nav {
+  display: flex;
+  margin-left: auto;
+}
+
+.nav a {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 23px;
+  color: #000000;
+}
+
+.nav li:not(:last-child) {
+  margin-right: 45px;
+}

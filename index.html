@@ -1,103 +1,106 @@
 <!DOCTYPE html>
-<html lang="ru">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HTMLBook</title>
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
-    rel="stylesheet">
-    <link rel="stylesheet" href="./css/normalize-css.css">
-    <link rel="stylesheet" href="./css/styles.css">
-</head>
-
-<body>
-    <!-- Хедер -->
-    <header class="header">
-<div class="page-header container">
-    <nav class="nav-list">
-        <ul class="nav-list-items">
-            <a class="logo" href="./index.html"><span class="logo-web">HTML</span><span class="logo-studio">Book</span></a>
-            <li><a class="nav-list-link current" href="./index.html">Головна</a></li>
-            <li><a class="nav-list-link" href="./portfolio.html">Матеріал</a></li>
-            <li><a class="nav-list-link" href="#">Онлайн-курси</a></li>
-        </ul> 
-    </nav>
-    <address class="header-address-link">
-        <ul class="header-address">
-            <li><a class="header-address-mail" href="mailto:info@devstudio.com">misha_and_andew_team@gmail.com</a></li>
-            <li><a class="header-address-tel" href="tel:+380961111111">+38 096 111 11 11</a></li>
-        </ul>
-    </address>
-</div>
-    </header>
-    <!-- Мейн -->
-    <main>
-        <!-- Ефективне навчання саме для вас -->
-        <section class="hero">
-                <div class="container">
-                    <h1 class="hero-title">Ефективне навчання саме для вас</h1>
-                    <button type="button" class="hero-button">Записатись на лекцію</button>
-                </div>
-        </section>  
-        <!-- Особливості -->
-        <section class="feautures-list">
-            <div class="container">
-                <h2 class="visually-hidden">Особливості</h2>
-                <ul class="card-list">
-                    <li class="feature-card"> 
-                        <h3 class="feautures-list-item">Увага до деталей</h3>
-                        <p class="feautures-list-desc">У нашому посібнику ви знайдете чітко підібрану і змістовну інформацію щодо HTML.</p>
-                    </li>
-                    <li class="feature-card">
-                        <h3 class="feautures-list-item">Доступність</h3>
-                        <p class="feautures-list-desc">Наші конспекти та уроки ви можете переглянути з будь-якої точки світу та завантажити собі на пристрій.</p>
-                    </li>
-                    <li class="feature-card">
-                        <h3 class="feautures-list-item">Практика</h3>
-                        <p class="feautures-list-desc">Наші уроки підкріплені практичними завданнями, для закріплення щойно отриманих знань.</p>
-                    </li>
-                    <li class="feature-card">
-                        <h3 class="feautures-list-item">Сучасні технології</h3>
-                        <p class="feautures-list-desc">У нашій добірці присутні самі оптимальні і потужні програми, що допомагають у навчанні.</p>
-                    </li>
-                </ul>
-            </div>
-        </section>
-
-        <!-- Наша команда -->
-        <section class="our-team">
-            <div class="container">
-                <h2 class="our-team-title">Наша команда</h2>
-                <ul class="team-cards">
-                    <li class="our-team-mates first">
-                        <img src="./images/our-team/andrey.jpg" alt="Андрій Захаревич" width="270" height="260">
-                        <h3 class="our-team-mates-people">Андрій Захаревич</h3>
-                        <p lang="en" class="our-team-mates-role">Developer</p>
-                    </li>
-                    <li class="our-team-mates second">
-                        <img src="./images/our-team/misha.jpg" alt="Михайло Коновал" width="270" height="260">
-                        <h3 class="our-team-mates-people">Михайло Коновал</h3>
-                        <p lang="en" class="our-team-mates-role">Designer</p>
-                    </li>
-                </ul>
-            </div>
-        </section>
-    </main>
-    <!-- Футер -->
-    <footer class="footer">
-        <div class="container">
-            <a href="./index.html" class="footer-logo">
-                <span class="logo-web">HTML</span><span class="logo-studio reverse">Book</span>
-            </a>
-            <address class="footer-address">
-                <ul class="footer-address-links">
-                    <li><a href="https://goo.gl/maps/fE4yKAdP2dxXhwgp8" target="_blank" class="footer-address-map">м. Вінниця</a></li>
-                    <li><a href="mailto:info@example.com" class="footer-address-mail">misha_and_andew_team@gmail.com</a></li>
-                    <li><a href="tel:+380991111111" class="footer-address-tel">+38 099 111 11 11</a></li>
-                </ul>
-            </address>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HMTL-book</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/normalize-css.css" />
+    <link rel="stylesheet" href="./sass/main.css" />
+  </head>
+  <body>
+    <header>
+      <div class="header-wrap">
+        <div class="logo-and-description">
+          <a href="#" class="logo"><span class="part-1">HTML</span><span class="part-2">Book</span></a>
+          <p class="logo-description">Уроки розробки сайтів за мов програмування</p>
         </div>
+
+        <ul class="nav">
+          <li><a href="#">JavaScript</a></li>
+          <li><a href="#">CSS</a></li>
+          <li><a href="#">HTML</a></li>
+          <li><a href="#">Відео-уроки</a></li>
+          <li><a href="#">#search</a></li>
+        </ul>
+      </div>
+    </header>
+
+    <main>
+        <a href="#" class="link-html-main">
+            <div class="link-html">
+                <h2>HTML</h2>
+                <img src="./images/main/html.png" alt="html" />
+                <p>Основа. Теорія. Приклади</p>
+              </div>
+        </a>
+        <div class="menu-right">
+            <a href="#" class="tags-and-atributes">
+                <div>
+                    <div class="taa-padding">
+                        <h2>Теги та атрибути</h2>
+                        <p>Необхідні об’єкти для забезпечення цілісності сайту</p>
+                    </div>
+                  </div>
+            </a>
+            <a href="" class="">
+                <div class="main-html-book">
+                    <div class="html-book-desc">
+                        <h2>HTML.Book</h2>
+                        <p>
+                          Сайт для тих, хто вивчає веб-розробку: створення сайтів та додатків
+                        </p>
+                    </div>
+                    <img src="./images/main/code.jpg" alt="" />
+                  </div>
+            </a>
+        </div>
+        <a href="" class="">
+            <div class="test">
+                <div class="skelet">
+                    <h2>Скелет HTML-документа</h2>
+                    <p>Основний каркас html-сторінки, на якому буде триматися весь сайт</p>
+                </div>
+                <div class="about-css">
+                    <p>CSS</p>
+                    <img src="./images/main/css.png" alt="" />
+                </div>
+              </div>
+        </a>
+    </main>
+
+    <footer>
+      <div>
+        <a href="#" class="footer-logo"><span class="footer-logo-1">HTML</span><span class="footer-logo-2">Book</span></a>
+        <p class="rights-info">Всі права захищені.</p>
+        <a href="#" class="policy-link"
+          ><div>
+            <p>Політика конфіденційності</p>
+          </div></a
+        >
+      </div>
+      <ul class="contacts">
+        <li><a href="tel:+380968345454">096 834-54-54</a></li>
+        <li><a href="mailto:HTML.book@gmail.com">HTML.book@gmail.com</a></li>
+      </ul>
+
+      <ul class="footer-nav">
+        <li>JavaScript</li>
+        <li>CSS</li>
+        <li>HTML</li>
+        <li>Відео-уроки</li>
+      </ul>
+
+      <ul class="socials">
+        <li>#instagram</li>
+        <li>#facebook</li>
+        <li>#youtube</li>
+      </ul>
     </footer>
-</body>
+  </body>
 </html>
