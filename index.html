@@ -17,8 +17,12 @@
     <header>
       <div class="header-wrap">
         <div class="logo-and-description">
-          <a href="#" class="logo"><span class="part-1">HTML</span><span class="part-2">Book</span></a>
-          <p class="logo-description">Уроки розробки сайтів за мов програмування</p>
+          <a href="#" class="logo"
+            ><span class="part-1">HTML</span><svg class="logo-dots"><use href="./images/main/sprite.svg#dots"></use></svg><span class="part-2">Book</span></a
+          >
+          <p class="logo-description">
+            Уроки розробки сайтів за мов програмування
+          </p>
         </div>
 
         <ul class="nav">
@@ -26,57 +30,67 @@
           <li><a href="#">CSS</a></li>
           <li><a href="#">HTML</a></li>
           <li><a href="#">Відео-уроки</a></li>
-          <li><a href="#">#search</a></li>
+          <li>
+            <a href="#"><svg class="search-svg">
+                <use href="./images/main/sprite.svg#search"></use></svg></a>
+          </li>
         </ul>
       </div>
     </header>
 
     <main>
+      <section class="menu">
         <a href="#" class="link-html-main">
-            <div class="link-html">
-                <h2>HTML</h2>
-                <img src="./images/main/html.png" alt="html" />
-                <p>Основа. Теорія. Приклади</p>
-              </div>
+          <div class="link-html">
+            <h2>HTML</h2>
+            <img src="./images/main/html.png" alt="html" />
+            <p>Основа. Теорія. Приклади</p>
+          </div>
         </a>
         <div class="menu-right">
-            <a href="#" class="tags-and-atributes">
-                <div>
-                    <div class="taa-padding">
-                        <h2>Теги та атрибути</h2>
-                        <p>Необхідні об’єкти для забезпечення цілісності сайту</p>
-                    </div>
-                  </div>
-            </a>
-            <a href="" class="">
-                <div class="main-html-book">
-                    <div class="html-book-desc">
-                        <h2>HTML.Book</h2>
-                        <p>
-                          Сайт для тих, хто вивчає веб-розробку: створення сайтів та додатків
-                        </p>
-                    </div>
-                    <img src="./images/main/code.jpg" alt="" />
-                  </div>
-            </a>
+          <a href="#" class="test-link">
+            <div class="tags-and-atributes">
+              <div class="taa-padding">
+                <h2>Теги та атрибути</h2>
+                <p>Необхідні об’єкти для забезпечення цілісності сайту</p>
+              </div>
+            </div>
+          </a>
+          <a href="" class="">
+            <div class="main-html-book">
+              <div class="html-book-desc">
+                <h2>HTML.Book</h2>
+                <p>
+                  Сайт для тих, хто вивчає веб-розробку: створення сайтів та
+                  додатків
+                </p>
+              </div>
+              <img src="./images/main/code.jpg" alt="" />
+            </div>
+          </a>
         </div>
         <a href="" class="">
-            <div class="test">
-                <div class="skelet">
-                    <h2>Скелет HTML-документа</h2>
-                    <p>Основний каркас html-сторінки, на якому буде триматися весь сайт</p>
-                </div>
-                <div class="about-css">
-                    <p>CSS</p>
-                    <img src="./images/main/css.png" alt="" />
-                </div>
-              </div>
+          <div class="test">
+            <div class="skelet">
+              <h2>Скелет HTML-документа</h2>
+              <p>
+                Основний каркас html-сторінки, на якому буде триматися весь сайт
+              </p>
+            </div>
+            <div class="about-css">
+              <p>CSS</p>
+              <img src="./images/main/css.png" alt="" />
+            </div>
+          </div>
         </a>
+      </section>
     </main>
 
     <footer>
       <div>
-        <a href="#" class="footer-logo"><span class="footer-logo-1">HTML</span><span class="footer-logo-2">Book</span></a>
+        <a href="#" class="footer-logo"
+          ><span class="footer-logo-1">HTML</span>
+          <svg class="logo-dots"><use href="./images/main/sprite.svg#dots"></use></svg><span class="footer-logo-2">Book</span></a>
         <p class="rights-info">Всі права захищені.</p>
         <a href="#" class="policy-link"
           ><div>
@@ -84,22 +98,27 @@
           </div></a
         >
       </div>
-      <ul class="contacts">
-        <li><a href="tel:+380968345454">096 834-54-54</a></li>
-        <li><a href="mailto:HTML.book@gmail.com">HTML.book@gmail.com</a></li>
-      </ul>
-
-      <ul class="footer-nav">
-        <li>JavaScript</li>
-        <li>CSS</li>
-        <li>HTML</li>
-        <li>Відео-уроки</li>
-      </ul>
+      <div class="footer-block">
+        <ul class="contacts">
+          <li><a href="tel:+380968345454" class="tel-ft"><div><svg class="footer-phone"><use href="./images/main/sprite.svg#phone"></use></svg>096 834-54-54</div></a></li>
+          <li><a href="mailto:HTML.book@gmail.com" class="mail-ft"><div class="mail-div"><svg class="footer-mail"><use href="./images/main/sprite.svg#mail"></use></svg>HTML.book@gmail.com</div></a></li>
+        </ul>
+  
+        <ul class="footer-nav">
+          <li><a href="#">JavaScript</a></li>
+          <li><a href="#">CSS</a></li>
+          <li><a href="#">HTML</a></li>
+          <li><a href="#">Відео-уроки</a></li>
+        </ul>
+      </div>
 
       <ul class="socials">
-        <li>#instagram</li>
-        <li>#facebook</li>
-        <li>#youtube</li>
+        <li><a href="#"><svg class="search-svg">
+          <use href="./images/main/sprite.svg#instagram"></use></svg></a></li>
+        <li><a href="#"><svg class="search-svg">
+          <use href="./images/main/sprite.svg#facebook"></use></svg></a></li>
+        <li><a href="#"><svg class="search-svg">
+          <use href="./images/main/sprite.svg#youtube"></use></svg></a></li>
       </ul>
     </footer>
   </body>

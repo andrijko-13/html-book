@@ -10,7 +10,7 @@ footer {
 .footer-logo {
   display: flex;
   flex-wrap: wrap;
-  width: 160px;
+  width: 140px;
 }
 
 .footer-logo-1 {
@@ -30,6 +30,13 @@ footer {
   line-height: 35px;
   color: #ffffff;
   margin-left: auto;
+}
+
+
+.logo-dots {
+  width: 60px;
+  height: 28px;
+  margin: auto;
 }
 
 .policy-link p {
@@ -84,6 +91,7 @@ color: #FFFFFF;
 .footer-nav {
   display: flex;
   margin-left: auto;
+  margin-top: 90px;
 }
 
 .footer-nav li{
@@ -103,6 +111,8 @@ color: #FFFFFF;
   margin-left: auto;
   display: flex;
   flex-direction: column;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
 .socials li {
@@ -118,3 +128,32 @@ color: #FFFFFF;
 .socials li:not(:last-child) {
   margin-bottom: 40px;
 }
+
+.footer-phone {
+  width: 25px;
+  height: 25px;
+  margin-right: 10px;
+}
+.footer-mail {
+  width: 25px;
+  height: 26px;
+  margin-right: 10px;
+}
+.tel-ft {
+  margin-right: 40px;
+}
+
+.contacts div {
+  display: flex;
+  justify-content: baseline;
+}
+
+.footer-block {
+  margin-left: 250px;
+  margin-right: 250px;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+
+

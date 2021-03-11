@@ -38,6 +38,12 @@
   margin-left: auto;
 }
 
+.logo-dots {
+  width: 60px;
+  height: 28px;
+  margin: auto;
+}
+
 .logo-description {
   font-family: Roboto;
   font-style: normal;
@@ -68,3 +74,11 @@
 .nav li:not(:last-child) {
   margin-right: 45px;
 }
+
+
+.search-svg {
+  width: 24px;
+  height: 24px;
+  fill: currentColor;
+}
+
